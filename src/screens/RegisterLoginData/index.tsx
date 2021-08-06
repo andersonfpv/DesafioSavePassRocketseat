@@ -86,7 +86,7 @@ export function RegisterLoginData() {
             title="E-mail"
             name="email"
             error={
-              errors.service_name && errors.service_name.message
+              errors.email && errors.email.message
             }
             control={control}
             autoCorrect={false}
@@ -98,7 +98,7 @@ export function RegisterLoginData() {
             title="Senha"
             name="password"
             error={
-              errors.service_name && errors.service_name.message
+              errors.password && errors.password.message
             }
             control={control}
             secureTextEntry
